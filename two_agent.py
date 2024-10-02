@@ -10,7 +10,7 @@ openai.api_key = st.secrets['API_KEY']
 
 # Sidebar Layout (Column 1 for logo, company, and developers' names)
 with st.sidebar:
-    st.image("logo.jpg", width=150)  # Adjust the width of the logo
+    #st.image("logo.jpg", width=150)  # Adjust the width of the logo
     st.markdown("""
         # Powered by Aibytec 
         **Developers: Anum Zeeshan & Sajid Ameen**
